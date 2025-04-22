@@ -1,10 +1,10 @@
 # Ex.No : 04   FIT ARMA MODEL FOR TIME SERIES
-## Date : 08/04/2023
+### Date : 08/04/2025
 
-## AIM :
+### AIM :
 To implement ARMA model in python.
 
-## ALGORITHM :
+### ALGORITHM :
 1. Import necessary libraries.
 2. Set up matplotlib settings for figure size.
 3. Define an ARMA(1,1) process with coefficients ar1 and ma1, and generate a sample of 1000
@@ -22,7 +22,7 @@ axis limits.
 6. Display the autocorrelation and partial autocorrelation plots for the ARMA(2,2) process using
 plot_acf and plot_pacf.
 
-## PROGRAM :
+### PROGRAM :
 #### Import necessary Modules and Functions
 ```
 import pandas as pd
@@ -127,7 +127,7 @@ plt.title('PACF of Simulated ARMA(2,2) (Lags=40)')
 plt.show()
 ```
 
-## OUTPUT :
+### OUTPUT :
 #### ORIGINAL DATA :
 ![image](https://github.com/user-attachments/assets/a336fe6c-95bc-4c32-82be-91bb78e5f67f)
 
@@ -155,5 +155,5 @@ plt.show()
 #### ii. Autocorrelation
 ![image](https://github.com/user-attachments/assets/c9bd2e23-0fa4-42b8-9229-a7f6ce007d8c)
 
-## RESULT:
+### RESULT:
 Thus, a python program is created to fir ARMA Model successfully.
